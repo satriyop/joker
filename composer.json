@@ -1,0 +1,26 @@
+{
+    "name": "satriyop/joker",
+    "description": "Developer Joke Generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Satriyo Pamungkas",
+            "email": "satriyopamungkas@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Satriyop\\Joker\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Satriyop\\Joker\\Tests\\" : "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    }
+}
