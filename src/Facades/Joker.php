@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 namespace Satriyop\Joker\Facades;
 
 use Illuminate\Support\Facades\Facade;
