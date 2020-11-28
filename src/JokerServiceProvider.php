@@ -8,12 +8,11 @@ class JokerServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-
     }
 
     public function register()
     {
-        $this->app->bind('joker', function() {
+        $this->app->bind('joker', function () {
             return new JokeFactory();
         });
     }
